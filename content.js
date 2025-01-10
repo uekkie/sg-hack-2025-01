@@ -25,8 +25,6 @@ const addSpanForImage = (img) => {
 
 const observerCallback = (mutationsList) => {
   mutationsList.forEach((mutation) => {
-    console.log(mutation);
-
     if (mutation.type === 'childList') {
       mutation.addedNodes.forEach((node) => {
         // Aタグとして要素が追加されるので子要素のimgをわたす
