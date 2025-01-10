@@ -3,6 +3,10 @@
   "name": "world nickname viewer",
   "version": "0.1",
   "description": "worldの部屋にいる人のニックネームを表示します",
+  "icons": {
+    "128": "icon/icon128.png"
+  },
+  "author": "uekkie",
   "permissions": [
     "scripting"
   ],
